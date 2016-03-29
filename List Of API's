@@ -1,0 +1,48 @@
+List Of API's
+
+
+POST REQUESTS:
+
+
+1. /addtocart
+2. /addtowishlist
+3. /removefromcart
+4. /removefromwishlist
+5. /additem
+6. /newcollection
+7. /newcategory
+8. /createorder
+9. /signin
+10. /signup
+
+
+GET REQUESTS:
+
+1. /collections
+2. /getusers/seller
+3. /getusers/buyer
+4. /getuser/seller/:userid
+5. /getuser/buyer/:userid
+6. /getitems
+7. /getitems/range/:offset/:quantity
+8. /getitems/city/:city
+9. /getitems/city/:city/:offset/:quantity
+10. /getitems/:city/:categoryid/:lookupid/:occasionid/:brand/:offset/:quantity
+11. /numrecords/:city/:categoryid/:lookupid/:occasionid/:brand
+12. /getitems/category/:category_id
+13. /getcart/:userid
+14. /getwishlist/:userid
+15. /getitem/:itemcode
+16. /related/:itemid
+
+
+LIST OF PAGES:
+
+1. Home Page
+2. Shop Page
+3. Single Product Page
+4. Cart Page
+5. Wishlist Page
+6. Checkout Page
+7. Login/Register Page for Seller & Buyer
+8. Listing Upload Page for Sellers
